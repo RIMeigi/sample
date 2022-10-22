@@ -1,1 +1,1 @@
-git remote add origin git@github.com:RIMeigi/sample4.git
+git pull origin master
