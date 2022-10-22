@@ -1,0 +1,60 @@
+@ -20,7 +20,7 @@ body {
+    z-index: 2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-items: end;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+@ -76,7 +76,7 @@ body {
+    height: 20vw;
+}
+
+.eye {
+.eye1 {
+    position: absolute;
+    border-radius: 100%; /* turn rectangle into circle */
+}
+@ -88,6 +88,18 @@ body {
+    width: 1vw;
+    height: 2vw;
+}
+#eye-left-light {
+    background-color: #fffffff5;
+    top: 6vw;
+    left: 6vw;
+    width: 1vw;
+    height: 1vw;
+}
+
+.eye2 {
+    position: absolute;
+    border-radius: 100%; /* turn rectangle into circle */
+}
+#eye-right {
+    background-color: #ec0000c5;
+    border: 0.2vw solid #191919;
+@ -96,13 +108,6 @@ body {
+    width: 1vw;
+    height: 2vw;
+}
+#eye-left-light {
+    background-color: #fffffff5;
+    top: 6vw;
+    left: 6vw;
+    width: 1vw;
+    height: 1vw;
+}
+#eye-right-light {
+    background-color: #fffffff5;
+    top: 6vw;
+@ -114,7 +119,7 @@ body {
+.mouth {
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    height: 2.2vw;
+}
+#mouth-square {
+    background-color: #a65ea7;
